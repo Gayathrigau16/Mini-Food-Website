@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.home-location {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.home-location p {
+    padding-left: 10px;
+}
+
+.home {
+    background-color: #ff3b00;
+    color: white;
+    height: 70px;
+}
+
+.loca {
+    margin-left: 10px;
+}
+
+.profile {
+    margin-left: 82%;
+}
+
+.profile img {
+    border-radius: 100%;
+}
+.card-top{
+    display: flex;
+    font-size: larger;
+    margin: 30px;
+}
+.card-top p{
+    margin-left: 10px;
+}
+.card-page{
+    margin-top: 10px;
+}
+.card-bottom{
+    color : white;
+    width: 80%;
+    height: 300px;
+    margin-bottom: 100px;
+    font-size: larger;
+    text-align: left;
+    margin-left: 120px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(blue,purple,red,rgb(0, 105, 146),rgb(241, 49, 81))
+}
+
+.card-bottom p{
+    padding-top: 20px;
+}
+.card-bottom pre{
+    padding-top: 20px;
+}
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff3b00;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    font-size: larger;
+
+}
+.nav {
+    display: flex;
+    background-color: #ff3b00;
+    color: white;
+    width: 95%;
+    height: 50px;
+    bottom: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    right: 2px;
+    position: fixed;
+    z-index: 50;
+}
+
+.nav i {
+    margin-left: 10px;
+}
+
+.card-nav {
+    background-color: #C53A0F;
+    color: white;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}

@@ -1,0 +1,48 @@
+body {
+    background-image: url(food/1-img.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+body button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+    border: #C53A0F 3px solid;
+    margin-left: 40%;
+    margin-top: 40%;
+    color: white;
+    background-color: #ff3b00;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+@media (max-width: 768px) {
+    body button {
+        position: absolute;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 70%;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: large;
+    }
+}
+
+@media (max-width: 400px) {
+    body button {
+        position: absolute;
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: medium;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-top: 100%;
+        margin-bottom: 10px;
+        line-height: 100%;
+    }
+}

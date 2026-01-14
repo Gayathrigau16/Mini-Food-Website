@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card-top {
+    display: flex;
+    font-size: larger;
+    margin: 30px;
+}
+
+.card-top p {
+    margin-left: 10px;
+}
+
+.use-location{
+    display: flex;
+    background-color: #ff3b00;
+    color: white;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+}
+#useLocationBtn{
+    border: none;
+    background-color: #ff3b00;
+    color: white;
+    padding-left: 10px;
+}
+#output{
+    text-align: center;
+}
+.use-location button{
+    display: block;
+}
+
+
+
+.search-bar {
+    border: black 2px solid;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 10%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.search-bar input {
+    border: none;
+    outline-color: white;
+    width: 90%;
+    height: 100%;
+    padding-left: 5px;
+}

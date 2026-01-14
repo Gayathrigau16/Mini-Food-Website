@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.arrow {
+  margin: 30px;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.rating {
+  color: #777;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.item-card h2 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #444;
+}
+
+.price {
+  font-size: 20px;
+  color: #ff3b00;
+  margin: 10px 0;
+}
+
+.portion,
+.raita-choice {
+  margin: 15px 0;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.raita-choice label {
+  display: block;
+  margin: 5px 0;
+}
+
+button {
+  width: 40%;
+  padding: 12px;
+  background-color: #ff3b00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 30%;
+}
